@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Рпэжушка</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="centerDIV">
+            <div id="choose">
+                <div class="character">
+                    <label><b>Девушка</b></label>
+                    <label>Старторые характеристики:</label>
+                    <label>Здоровье: 80%</label>
+                    <label>Деньги: 800</label>
+                    <label>Интеллект: 15</label>
+                    <label>Стресс: 15%</label>
+                    <button id="ChooseFemale">Выбрать этого персонажа</button>
+                </div>
+                <div class="character">
+                    <label><b>Парень</b></label>
+                    <label>Старторые характеристики:</label>
+                    <label>Здоровье: 100%</label>
+                    <label>Деньги: 500</label>
+                    <label>Интеллект: 10</label>
+                    <label>Стресс: 10%</label>
+                    <button id="ChooseMale">Выбрать этого персонажа</button>
+                </div>
+                <div class="character">
+                    <label><b>Покемон</b></label>
+                    <label>Старторые характеристики:</label>
+                    <label>Здоровье: 450%</label>
+                    <label>Деньги: 12800</label>
+                    <label>Интеллект: 3</label>
+                    <label>Стресс: 0%</label>
+                    <button id="ChoosePokemon">Выбрать этого персонажа</button>
+                </div>
+            </div>
+            <div id="SMS">
+                <label id="SMS-TEXT">ASFHOUAWHF</label>
+            </div>
+        </div>
+        <div id="death">
+            <label>ВЫ УМЕРЛИ</label>
+        </div>
+        <div class="container">
+            <div class="first-block">
+                <div class="screen">
+                    <img src="https://avatars.mds.yandex.net/get-zen_doc/1362552/pub_5d53c49f46f4ff00ad95d29f_5d552f0e06cc4600ae5120f4/scale_1200" id="image">
+                </div>
+                <div class="stats">
+                    <label>Статы:</label>
+                    <label id="HP">Здоровье студента: 100%</label>
+                    <label id="Money">Деньги студента: 500 рублей</label>
+                    <label id="KnowLedge">Знания студента: 10</label>
+                    <label id="Stress">Стресс: 10%</label>
+                    <label id="TotalSteps">Кол-во ходов: 0</label>
+                </div>
+            </div>
+            <div class="infos">
+                <span>Ваше местоположение: <label id="Location">Локация</label></span>
+                <p id="Result">результат ответа</p>
+                <span>Варианты выхода: <label id="Ways">столовая, аудитория</label></span>
+                <input id="inp" type="text" placeholder="куда хочешь пойти?">
+                <button id="Step">Пойти</button>
+            </div> 
+        </div>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
